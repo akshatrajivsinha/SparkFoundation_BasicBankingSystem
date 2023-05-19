@@ -1,0 +1,23 @@
+.balCont {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(8, 5, 0);
+}
+
+.balCont > form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type]  {
+    width: 100%;
+    font-size: 2em;
+    margin-top: 8px;
+    
+    color: rgb(15, 14, 14);
+    background-color: transparent;
+    border-color: rgb(15, 14, 12);
+}

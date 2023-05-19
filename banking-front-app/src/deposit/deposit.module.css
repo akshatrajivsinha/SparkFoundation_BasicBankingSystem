@@ -1,0 +1,26 @@
+.depCont {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(5, 5, 5);
+
+
+}
+
+.depCont > form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+input[type]  {
+    width: 100%;
+    font-size: 2em;
+    margin-top: 8px;
+
+    color: rgb(6, 6, 6);
+    background-color: transparent;
+    border-color: rgb(10, 10, 10);
+}
